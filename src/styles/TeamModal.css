@@ -1,3 +1,7 @@
+* {
+  font-family: 'Formula1Font';
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -27,7 +31,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .modal-header h2 {
@@ -49,7 +53,6 @@
 
 .modal-body li {
   display: flex;
-  align-items: center;
   margin-bottom: 10px;
   text-align: center;
   justify-content: stretch;
@@ -57,6 +60,7 @@
 
 .modal-body li p {
   text-decoration: none;
+  font-size: small;
 }
 
 .modal-body img {
@@ -81,7 +85,11 @@
 }
 
 .driver-info-title {
-  width: initial;
+  font-size: medium;
+}
+
+.driver-info {
+  font-size: small;
 }
 
 .team-body {
@@ -90,6 +98,8 @@
 
 .team-info-title {
   margin-left: none;
+  font-size: medium;
+
 }
 
 @media only screen and (max-width: 768px) {

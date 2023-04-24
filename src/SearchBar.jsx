@@ -42,9 +42,9 @@ function SearchBar({ placeholder, data }) {
         />
         <button className="searchButton" onClick={clearInput}>
           {filteredData.length === 0 ? (
-            <ArrowIcon />
-          ) : (
             <ArrowIcon2 />
+          ) : (
+            <ArrowIcon />
           )}
         </button>
       </div>

@@ -21,9 +21,7 @@
   position: relative;
 }
 
-.searchIcon {
-  height: 60px;
-  width: 50px;
+.searchButton {
   background-color: white;
   display: grid;
   place-items: center;
@@ -32,12 +30,12 @@
   top: 0;
 }
 
-input:focus {
-  outline: none;
+.searchButton:hover {
+  background-color: lightgrey;
 }
 
-.searchIcon svg {
-  font-size: 35px;
+input:focus {
+  outline: none;
 }
 
 .dataResult {
@@ -63,13 +61,6 @@ input:focus {
   font-family: 'Formula1Font';
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: lightgrey;
-}
 
 #clearBtn {
   cursor: pointer;

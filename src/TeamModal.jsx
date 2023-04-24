@@ -117,7 +117,6 @@ function TeamModal({ team, drivers, onClose }) {
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
-                    padding: "5px",
                     marginRight: "10px",
                   }}
                 >
@@ -127,7 +126,6 @@ function TeamModal({ team, drivers, onClose }) {
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
-                    padding: "5px",
                     marginRight: "10px",
                   }}
                 >
@@ -138,7 +136,6 @@ function TeamModal({ team, drivers, onClose }) {
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
-                    padding: "5px",
                     marginRight: "10px",
                   }}
                 >
@@ -149,7 +146,6 @@ function TeamModal({ team, drivers, onClose }) {
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
-                    padding: "5px",
                     marginRight: "10px",
                   }}
                 >
@@ -160,7 +156,6 @@ function TeamModal({ team, drivers, onClose }) {
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
-                    padding: "5px",
                     marginRight: "10px",
                   }}
                 >
@@ -177,7 +172,6 @@ function TeamModal({ team, drivers, onClose }) {
                           team.teamName,
                           true
                         )}`,
-                        padding: "5px",
                         marginRight: "10px",
                       }}
                     >
