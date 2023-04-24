@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./styles/TeamModal.css";
 import teamObj from "./utils/carImages";
 import carsColors from "./utils/carsColors.json";
@@ -6,6 +6,8 @@ import carsColors from "./utils/carsColors.json";
 function TeamModal({ team, drivers, onClose }) {
   const [teamDrivers, setTeamDrivers] = useState([]);
   const [teamImage, setTeamImage] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
+  const modalRef = useRef(null);
 
   useEffect(() => {
     const fetchDrivers = async () => {
@@ -21,13 +23,22 @@ function TeamModal({ team, drivers, onClose }) {
         teamObj.find((teamObj) => teamObj.carName === team.teamName)
           .imageAddress
       );
+      setIsLoading(false);
     };
     fetchDrivers();
-  }, [team]);
 
-  const handleClose = () => {
-    onClose();
-  };
+    const handleOutsideClick = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [team, onClose]);
 
   const getColor = (teamName, isDriver) => {
     const team = carsColors["2023"].find((team) => team.teamName === teamName);
@@ -39,11 +50,11 @@ function TeamModal({ team, drivers, onClose }) {
   };
 
   return (
-    <div className="modal">
-      <div className="modal-content">
+    <div className={`modal ${isLoading ? "loading" : ""}`}>
+      {isLoading && <div className="spinner"></div>}
+      <div className={`modal-content ${isLoading ? "hidden" : ""}`} ref={modalRef}>
         <div className="modal-header">
           <h4>{team && team.teamName}</h4>
-          <button onClick={handleClose}>X</button>
         </div>
         <div className="modal-body">
           <img
