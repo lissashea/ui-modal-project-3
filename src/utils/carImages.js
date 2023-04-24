@@ -3,7 +3,7 @@
 const teamObj = [
   {
     "carName": "Red Bull Racing Honda",
-    "imageAddress": "https://www.f1-fansite.com/wp-content/uploads/2023/02/Red-Bull-RB18-sideview.jpg"
+    "imageAddress": "https://media.formula1.com/content/dam/fom-website/teams/2023/teamcar-redbull.png.transform/2col-retina/image.png"
   },
   {
     "carName": "Scuderia Ferrari Mission Winnow",
@@ -15,7 +15,7 @@ const teamObj = [
   },
   {
     "carName": "Alpine F1 Team",
-    "imageAddress": "https://www.f1-fansite.com/wp-content/uploads/2023/02/Left-side-view-Alpine-A523.jpg"
+    "imageAddress": "https://media.formula1.com/content/dam/fom-website/teams/2023/alpine.png.transform/2col-retina/image.png"
   },
   {
     "carName": "McLaren F1 Team",
