@@ -3,6 +3,8 @@ import F1Teams from "./F1Teams";
 import NavBar from './NavBar';
 import SearchBar from "./SearchBar";
 import { getDrivers } from "./utils/searchDrivers";
+import './styles/App.css';
+
 
 
 function App() {
@@ -16,14 +18,14 @@ function App() {
 
     fetchData();
   }, []);
-
-
+  
   return (
-      <div style={{backgroundColor: "red"}}>
-        <NavBar />
-        <SearchBar placeholder="Enter a driver name..." data={drivers} />
-        <F1Teams />
-      </div>
+    <div>
+      <NavBar />
+      <SearchBar placeholder="Enter a driver name..." data={drivers} />
+      <F1Teams />
+    </div>
   );
 }
+
 export default App;

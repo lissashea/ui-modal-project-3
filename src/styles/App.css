@@ -1,4 +1,7 @@
-* {
-  background-color: red;
-  opacity: .3;
-}
+
+
+  body {
+    background-image: url("/Users/lissawarshaw/Desktop/repos/projects/ui-project-3/my-app/src/styles/car.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
