@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-      <div>
+      <div style={{backgroundColor: "red"}}>
         <NavBar />
         <SearchBar placeholder="Enter a driver name..." data={drivers} />
         <F1Teams />

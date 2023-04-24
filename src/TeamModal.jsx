@@ -133,7 +133,7 @@ function TeamModal({ team, drivers, onClose }) {
                   <h4 className="driver-info-title">Nationality:</h4>
                   <p className="driver-info">{driver.nationality}</p>
                 </div>
-                <div
+                {/* <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
                     marginRight: "10px",
@@ -142,7 +142,7 @@ function TeamModal({ team, drivers, onClose }) {
                   {" "}
                   <h4 className="driver-info-title">Official Number:</h4>
                   <p className="driver-info">{driver.officialNumber}</p>
-                </div>
+                </div> */}
                 <div
                   style={{
                     borderBottom: `5px solid ${getColor(team.teamName, true)}`,
