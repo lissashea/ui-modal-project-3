@@ -3,7 +3,6 @@ import F1Teams from "./F1Teams";
 import NavBar from './NavBar';
 import SearchBar from "./SearchBar";
 import { getDrivers } from "./utils/searchDrivers";
-import { ArrowIcon, ArrowIcon2 } from './ArrowIcon';
 
 
 function App() {
