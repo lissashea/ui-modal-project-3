@@ -1,0 +1,52 @@
+{
+  "2023": [
+    {
+      "teamName": "Mercedes-AMG Petronas Formula One Team",
+      "color1": "#009690",
+      "color2": "#d0c6c6"
+    },
+    {
+      "teamName": "Red Bull Racing Honda",
+      "color1": "#c04e4b",
+      "color2": "#2a3344"
+    },
+    {
+      "teamName": "Scuderia Ferrari Mission Winnow",
+      "color1": "#e94144",
+      "color2": "#a1883c"
+    },
+    { 
+      "teamName": "McLaren F1 Team", 
+      "color1": "#e66f22", 
+      "color2": "#1b130e" },
+    {
+      "teamName": "Aston Martin Cognizant Formula One Team",
+      "color1": "#00594e",
+      "color2": "#d0c6c6"
+    },
+    { 
+      "teamName": "Alpine F1 Team", 
+      "color1": "#4f8ecb", 
+      "color2": "#f4c3eb" },
+    {
+      "teamName": "Scuderia AlphaTauri Honda",
+      "color1": "#50759a",
+      "color2": "#d0c6c6"
+    },
+    {
+      "teamName": "Alfa Romeo Racing ORLEN",
+      "color1": "#A50F2D",
+      "color2": "#004E37"
+    },
+    {
+      "teamName": "Williams Racing",
+      "color1": "##37BEDD",
+      "color2": "#d0c6c6"
+    },
+    { 
+      "teamName": "Haas F1 Team", 
+      "color1": "#e3032d", 
+      "color2": "#d0c6c6" 
+    }
+  ]
+}

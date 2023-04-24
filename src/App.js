@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import F1Teams from "./F1Teams";
+import NavBar from './NavBar';
+import SearchBar from "./SearchBar";
+import { getDrivers } from "./utils/searchDrivers";
+import { ArrowIcon, ArrowIcon2 } from './ArrowIcon';
+
 
 function App() {
+  const [drivers, setDrivers] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const driversData = await getDrivers();
+      setDrivers(driversData);
+    };
+
+    fetchData();
+  }, []);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <NavBar />
+        <SearchBar placeholder="Enter a driver name..." data={drivers} />
+        <F1Teams />
+      </div>
   );
 }
-
 export default App;

@@ -1,0 +1,138 @@
+
+ {
+ "2022": [
+    {
+      "GRANDPRIX": "Bahrain",
+      "DRIVER": "Charles Leclerc",
+      "CAR": "FERRARI",
+      "TIME": "1:34.570"
+    },
+    {
+      "GRANDPRIX": "Saudi Arabia",
+      "DRIVER": "Charles Leclerc",
+      "CAR": "FERRARI",
+      "TIME": "1:31.634"
+    },
+    {
+      "GRANDPRIX": "Australia",
+      "DRIVER": "Charles Leclerc",
+      "CAR": "FERRARI",
+      "TIME": "1:20.260"
+    },
+    {
+      "GRANDPRIX": "Emilia Romagna",
+      "DRIVER": "Max Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:18.446"
+    },
+    {
+      "GRANDPRIX": "Miami",
+      "DRIVER": "Max Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:31.361"
+    },
+    {
+      "GRANDPRIX": "Spain",
+      "DRIVER": "Sergio Perez",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:24.108"
+    },
+    {
+      "GRANDPRIX": "Monaco",
+      "DRIVER": "Lando Norris",
+      "CAR": "MCLAREN MERCEDES",
+      "TIME": "1:14.693"
+    },
+    {
+      "GRANDPRIX": "Azerbaijan",
+      "DRIVER": "Sergio Perez",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:46.046"
+    },
+    {
+      "GRANDPRIX": "Canada",
+      "DRIVER": "Carlos Sainz",
+      "CAR": "FERRARI",
+      "TIME": "1:15.749"
+    },
+    {
+      "GRANDPRIX": "Great Britain",
+      "DRIVER": "Lewis Hamilton",
+      "CAR": "MERCEDES",
+      "TIME": "1:30.510"
+    },
+    {
+      "GRANDPRIX": "Austria",
+      "DRIVER": "Max Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:07.275"
+    },
+    {
+      "GRANDPRIX": "France",
+      "DRIVER": "CARlos Sainz",
+      "CAR": "FERRARI",
+      "TIME": "1:35.781"
+    },
+    {
+      "GRANDPRIX": "Hungary",
+      "DRIVER": "Lewis Hamilton",
+      "CAR": "MERCEDES",
+      "TIME": "1:21.386"
+    },
+    {
+      "GRANDPRIX": "Belgium",
+      "DRIVER": "Max Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:49.354"
+    },
+    {
+      "GRANDPRIX": "Netherlands",
+      "DRIVER": "Max Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:13.652"
+    },
+    {
+      "GRANDPRIX": "Italy",
+      "DRIVER": "Sergio Perez",
+      "CAR": "RED BULL RACING RBPT",
+      "TIME": "1:24.030"
+    },
+    {
+      "GRANDPRIX": "Singapore",
+      "DRIVER": "George Russel",
+      "CAR": "MERCEDES",
+      "TIME": "1:46.458"
+    },
+    {
+      "GRANDPRIX": "JAPAN",
+      "DRIVER": "ZHOU",
+      "CAR": "ALFA ROMEO FERRARI",
+      "TIME": "1:44.411"
+    },
+    {
+      "GRANDPRIX": "United States",
+      "DRIVER": "Russell",
+      "CAR": "MERCEDES",
+      "TIME": "1:38.788"
+      },
+      {
+      "GRANDPRIX": "Mexico",
+      "DRIVER": "Russell",
+      "CAR": "MERCEDES",
+      "TIME": "1:20.153"
+      },
+      {
+      "GRANDPRIX": "Brazil",
+      "DRIVER": "Russell",
+      "CAR": "MERCEDES",
+      "TIME": "1:13.785"
+      },
+      {
+      "GRANDPRIX": "Abu Dhabi",
+      "DRIVER": "Norris",
+      "CAR": "MCLAREN MERCEDES",
+      "TIME": "1:28.391"
+      }
+    ]
+   
+ }

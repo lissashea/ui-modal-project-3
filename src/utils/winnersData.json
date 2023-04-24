@@ -1,0 +1,158 @@
+{
+  "2022": [
+    {
+      "GRANDPRIX": "Bahrain",
+      "DATE": "20 Mar 2022",
+      "WINNER": "Leclerc",
+      "CAR": "FERRARI",
+      "LAPS": 57
+    },
+    {
+      "GRANDPRIX": "Saudi Arabia",
+      "DATE": "27 Mar 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 50
+    },
+    {
+      "GRANDPRIX": "Australia",
+      "DATE": "10 Apr 2022",
+      "WINNER": "Leclerc",
+      "CAR": "FERRARI",
+      "LAPS": 58
+    },
+    {
+      "GRANDPRIX": "Emilia Romagna",
+      "DATE": "24 Apr 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 63
+    },
+    {
+      "GRANDPRIX": "Miami",
+      "DATE": "08 May 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 57
+    },
+    {
+      "GRANDPRIX": "Spain",
+      "DATE": "22 May 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 66
+    },
+    {
+      "GRANDPRIX": "Monaco",
+      "DATE": "29 May 2022",
+      "WINNER": "Perez",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 64
+    },
+    {
+      "GRANDPRIX": "Azerbaijan",
+      "DATE": "12 Jun 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 51
+    },
+    {
+      "GRANDPRIX": "Canada",
+      "DATE": "19 Jun 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 70
+    },
+    {
+      "GRANDPRIX": "Great Britain",
+      "DATE": "03 Jul 2022",
+      "WINNER": "Sainz",
+      "CAR": "FERRARI",
+      "LAPS": 52
+    },
+    {
+      "GRANDPRIX": "Austria",
+      "DATE": "10 Jul 2022",
+      "WINNER": "Leclerc",
+      "CAR": "FERRARI",
+      "LAPS": 71
+    },
+    {
+      "GRANDPRIX": "France",
+      "DATE": "24 Jul 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 53
+    },
+    {
+      "GRANDPRIX": "Hungary",
+      "DATE": "31 Jul 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 70
+    },
+    {
+      "GRANDPRIX": "Belgium",
+      "DATE": "28 Aug 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 44
+    },
+    {
+      "GRANDPRIX": "Netherlands",
+      "DATE": "04 Sep 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 72
+    },
+    {
+      "GRANDPRIX": "Italy",
+      "DATE": "11 Sep 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 53
+    },
+    {
+      "GRANDPRIX": "Singapore",
+      "DATE": "02 Oct 2022",
+      "WINNER": "Perez",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 59
+    },
+    {
+      "GRANDPRIX": "Japan",
+      "DATE": "09 Oct 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 28
+    },
+    {
+      "GRANDPRIX": "United States",
+      "DATE": "23 Oct 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 56
+    },
+    {
+      "GRANDPRIX": "Mexico",
+      "DATE": "30 Oct 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 71
+    },
+    {
+      "GRANDPRIX": "Brazil",
+      "DATE": "13 Nov 2022",
+      "WINNER": "Russell",
+      "CAR": "MERCEDES",
+      "LAPS": 71
+    },
+    {
+      "GRANDPRIX": "Abu Dhabi",
+      "DATE": "20 Nov 2022",
+      "WINNER": "Verstappen",
+      "CAR": "RED BULL RACING RBPT",
+      "LAPS": 58
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: red .05;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  font-size: xx-large;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-header button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modal-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: stretch;
+}
+
+.modal-body li p {
+  text-decoration: none;
+}
+
+.modal-body img {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.modal-body p {
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.modal-body p:last-of-type {
+  margin-right: 0;
+
+}
+
+.team-image {
+  max-height: 100px;
+  max-width: 150px;
+}
+
+.driver-info-title {
+  width: initial;
+}
+
+.team-body {
+  display: flex;
+}
+
+.team-info-title {
+  margin-left: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .driver-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .driver-image {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .driver-info-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-body {
+    width: 90%;
+    overflow-y: auto;
+    max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-body li {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+    overflow-y: auto;
+    max-height: 500px;
+  }
+}
