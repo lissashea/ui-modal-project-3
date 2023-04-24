@@ -1,7 +1,7 @@
 
 
   body {
-    background-image: url("/Users/lissawarshaw/Desktop/repos/projects/ui-project-3/my-app/src/styles/car.png");
+    background-image: url("car.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
